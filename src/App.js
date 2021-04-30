@@ -1,8 +1,18 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Header from "./layout/Header";
+import SectionAbout from "./layout/SectionAbout";
+import SectionServices from "./layout/SectionServices";
+import Footer from "./layout/Footer";
 
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div className="App">
+      <Header />
+      <SectionAbout />
+      <SectionServices />
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
