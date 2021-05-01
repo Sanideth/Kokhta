@@ -1,0 +1,126 @@
+// Header
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url(./img/hero-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+
+  &__top {
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0;
+  }
+
+  &__logo-img {
+    width: 20%;
+  }
+
+  &__list {
+    display: flex;
+
+    & > *:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  &__link {
+    color: #fff;
+    position: relative;
+    &:hover::after {
+      width: 100%;
+    }
+
+    &::after {
+      content: "";
+      bottom: -5px;
+      left: 0;
+      height: 2px;
+      width: 0;
+      position: absolute;
+      background-color: $color-green;
+      transition: all 0.5s;
+    }
+  }
+
+  &__bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &__heading-container {
+    margin-bottom: 5rem;
+  }
+  &__button-container {
+    text-align: center;
+  }
+}
+
+.section-about {
+  padding: 15rem 0;
+
+  &__heading-container {
+    text-align: center;
+    margin-bottom: 15rem;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  &__info-box {
+    flex-basis: 43%;
+  }
+  &__icon-container {
+    & svg {
+      fill: $color-green;
+    }
+  }
+}
+
+.section-services {
+  background-image: url(./img/fence-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+
+  &__heading-container {
+    text-align: center;
+    padding-top: 8rem;
+  }
+
+  & .heading-secondary {
+    &::after {
+      background-color: #fff;
+    }
+  }
+  &__services {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &__service {
+    border: 1px solid #fff;
+    flex-basis: 30%;
+    position: relative;
+  }
+
+  &__figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
