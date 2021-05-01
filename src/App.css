@@ -158,7 +158,8 @@ a {
     background-color: #fff; }
   .section-services__services {
     display: flex;
-    flex-wrap: wrap; }
+    flex-wrap: wrap;
+    justify-content: space-between; }
   .section-services__service {
     border: 1px solid #fff;
     flex-basis: 30%;
