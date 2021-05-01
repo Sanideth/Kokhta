@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
-}
+@font-face {
+  font-family: "Noto Sans Georgian";
+  src: local("Noto Sans Georgian"), url(./fonts/NotoSansGeorgian-Regular.ttf) format("truetype"); }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@font-face {
+  font-family: "Noto Sans Georgian";
+  font-weight: 600;
+  src: local("Noto Sans Georgian"), url(./fonts/NotoSansGeorgian-SemiBold.ttf) format("truetype"); }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+@font-face {
+  font-family: "Noto Sans Georgian";
+  font-weight: 700;
+  src: local("Noto Sans Georgian"), url(./fonts/NotoSansGeorgian-Bold.ttf) format("truetype"); }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@font-face {
+  font-family: "Noto Sans Georgian";
+  font-weight: 800;
+  src: local("Noto Sans Georgian"), url(./fonts/NotoSansGeorgian-ExtraBold.ttf) format("truetype"); }
 
-.App-link {
-  color: #61dafb;
-}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+html {
+  font-size: 62.5%; }
+
+body {
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: 1.6rem; }
+
+img {
+  display: block;
+  width: 100%; }
+
+ul {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.btn {
+  padding: 1rem 3rem;
+  outline: none;
+  border: none;
+  border-radius: 4rem; }
+
+.container {
+  max-width: 140rem;
+  margin: 0 auto; }
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65); }
+
+.heading-primary {
+  color: #fff; }
+
+.heading-secondary {
+  font-size: 3.5rem;
+  position: relative;
+  vertical-align: middle; }
+  .heading-secondary::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 15%;
+    height: 1px;
+    background-color: #449440;
+    transform: translateX(-50%); }
+  .heading-secondary::after {
+    bottom: -30px; }
+
+.btn-primary {
+  background-color: #449440;
+  color: #fff;
+  opacity: 0.9; }
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-image: url(./img/hero-1.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed; }
+  .header__top {
+    border-bottom: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 0; }
+  .header__logo-img {
+    width: 20%; }
+  .header__list {
+    display: flex; }
+    .header__list > *:not(:last-child) {
+      margin-right: 2rem; }
+  .header__link {
+    color: #fff;
+    position: relative; }
+    .header__link:hover::after {
+      width: 100%; }
+    .header__link::after {
+      content: "";
+      bottom: -5px;
+      left: 0;
+      height: 2px;
+      width: 0;
+      position: absolute;
+      background-color: #449440;
+      transition: all 0.5s; }
+  .header__bottom {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+  .header__heading-container {
+    margin-bottom: 5rem; }
+  .header__button-container {
+    text-align: center; }
+
+.section-about {
+  padding: 15rem 0; }
+  .section-about__heading-container {
+    text-align: center;
+    margin-bottom: 15rem; }
+  .section-about__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; }
+  .section-about__info-box {
+    flex-basis: 43%; }
+  .section-about__icon-container svg {
+    fill: #449440; }
+
+.section-services {
+  background-image: url(./img/fence-3.jpg);
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  color: #fff; }
+  .section-services__heading-container {
+    text-align: center;
+    padding-top: 8rem; }
+  .section-services .heading-secondary::after {
+    background-color: #fff; }
+  .section-services__services {
+    display: flex;
+    flex-wrap: wrap; }
+  .section-services__service {
+    border: 1px solid #fff;
+    flex-basis: 30%;
+    position: relative; }
+  .section-services__figcaption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
