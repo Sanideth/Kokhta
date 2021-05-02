@@ -6,7 +6,7 @@ import { ReactComponent as HomeIcon } from "../img/home.svg";
 
 const SectionAbout = () => {
   return (
-    <section className="section-about">
+    <section className="section-about" id="about">
       <div className="container">
         <div className="section-about__heading-container">
           <Heading
