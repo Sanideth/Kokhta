@@ -2,17 +2,22 @@ import Image from "./Image";
 import Button from "./Button";
 
 const Service = (props) => {
-  const renderButton = props.renderButton;
   return (
-    <figure className={`${props.className}service`} onClick={props.onClick}>
-      {renderButton ? (
-        <div className={`${props.className}__button-container`}>
-          <Button content={props.content} className={props.buttonClassName} />
-        </div>
-      ) : null}
+    <figure className={`${props.className}service`}>
       <Image className={props.imageClassName} src={props.src} alt={props.alt} />
       <figcaption className={`${props.className}figcaption`}>
         {props.text}
+        <div className={`${props.className}button-container`}>
+          <Button
+            className="btn-secondary"
+            content="გაიგე მეტი"
+            clickOpen={props.clickOpen}
+            clickText={props.clickText}
+            popupText={props.popupText}
+            popupHeading={props.text}
+            clickable={true}
+          />
+        </div>
       </figcaption>
     </figure>
   );
