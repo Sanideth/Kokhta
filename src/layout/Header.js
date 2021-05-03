@@ -35,7 +35,8 @@ const Header = () => {
             <Button
               className="btn-primary"
               content="გაიგე მეტი"
-              href="#link-2"
+              href="#about"
+              clickable={false}
             />
           </div>
         </div>
