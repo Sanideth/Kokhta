@@ -1,12 +1,14 @@
 import Image from "./Image";
 import Button from "./Button";
+import Paragraph from "../components/Paragraph";
 
 const Service = (props) => {
   return (
     <figure className={`${props.className}service`}>
       <Image className={props.imageClassName} src={props.src} alt={props.alt} />
       <figcaption className={`${props.className}figcaption`}>
-        {props.text}
+        <Paragraph className="figaption-paragraph" text={props.text} />
+
         <div className={`${props.className}button-container`}>
           <Button
             className="btn-secondary"
