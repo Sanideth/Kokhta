@@ -1,10 +1,10 @@
 import Heading from "../components/Heading";
 import Service from "../components/Service";
 import Popup from "../layout/Popup";
-import yardImgSrc from "../img/yard-1.jpg";
+import yardImgSrc from "../img/yard-1-scaled.jpg";
 import designImgSrc from "../img/design-1.jpg";
-import irrigationImgSrc from "../img/irrigation-1.jpg";
-import abandonedImgSrc from "../img/abandoned-1.jpg";
+import irrigationImgSrc from "../img/irrigation-1-scaled.jpg";
+import abandonedImgSrc from "../img/abandoned-1-scaled.jpg";
 import fenceImgSrc from "../img/fence-1.jpg";
 import graveImgSrc from "../img/grave-1.jpg";
 import { useState } from "react";
