@@ -118,6 +118,7 @@
     display: flex;
     flex-direction: column;
     width: 75%;
+    height: 50rem;
     background-color: #fff;
     padding: 4rem;
     text-align: center;
@@ -127,10 +128,8 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
     transition: all 0.2s 0.3s;
-    &:target {
-      opacity: 1;
-      visibility: visible;
-    }
+    overflow: scroll;
+
     @media (max-width: $bp-tiny) {
       padding: 2rem;
       width: 90%;
