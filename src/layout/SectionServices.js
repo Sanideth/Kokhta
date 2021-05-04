@@ -23,6 +23,12 @@ const SectionServices = () => {
     setPopupHeading(popupHeading);
   };
 
+  const handlePopupBoxClick = (e) => {
+    if (e.target.classList.contains("open")) {
+      setOpen(!open);
+    }
+  };
+
   return (
     <section className="section-services" id="services">
       <div className="container">
@@ -111,7 +117,10 @@ const SectionServices = () => {
             ჩვენი სერვისიც სწორედ ასეთი ადამიანებისთვისაა ხელმისაწვდომი, დაინტერესებულ პირებს ვთავაზობთ სასაფლაოს მოვლის მომსახურებას. სერვისით სარგებლობა შესაძლებელია როგორც ერთჯერადად ისე ასევე მრავალჯერადად წინასწარ შეთანხმებული გეგმა გრაფიკის მიხედვით"
           />
         </div>
-        <div className={`popup ${open ? "open" : ""}`}>
+        <div
+          className={`popup ${open ? "open" : ""}`}
+          onClick={handlePopupBoxClick}
+        >
           <Popup
             popupText={popupText}
             click={handleOnClick}
