@@ -19,10 +19,7 @@ const Header = () => {
     setNavActive(!navActive);
   };
   return (
-    <header
-      className={`header ${navActive ? "header-active" : "null"}`}
-      id="main"
-    >
+    <header className={`header ${navActive ? "header-active" : ""}`} id="main">
       <div className="container u-fl">
         <div className="header__top">
           <div className="header__logo-container">
