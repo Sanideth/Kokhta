@@ -156,6 +156,11 @@ a {
     .popup__content:target {
       opacity: 1;
       visibility: visible; }
+    @media (max-width: 37.5em) {
+      .popup__content {
+        padding: 2rem;
+        width: 90%;
+        font-size: 1.4rem; } }
   .popup__button-container {
     align-self: flex-end; }
   .popup__text-container {

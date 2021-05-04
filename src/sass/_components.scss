@@ -131,6 +131,11 @@
       opacity: 1;
       visibility: visible;
     }
+    @media (max-width: $bp-tiny) {
+      padding: 2rem;
+      width: 90%;
+      font-size: 1.4rem;
+    }
   }
   &__button-container {
     align-self: flex-end;
