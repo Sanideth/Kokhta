@@ -1,0 +1,50 @@
+// display flex utility class
+
+.u-fl {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+// Popup class when opened
+
+.open {
+  visibility: visible;
+  opacity: 1;
+  & .popup__content {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+// Mobile Active Navigation classes
+@media (max-width: 600px) {
+  .span1-active {
+    transform: rotate(135deg) translate(3px, -3px);
+  }
+
+  .span2-deactive {
+    opacity: 0;
+  }
+
+  .span3-active {
+    transform: rotate(-135deg) translate(4px, 4px);
+  }
+
+  .nav-active {
+    transform: translate(-100%);
+  }
+
+  .btn-navigation-active {
+    position: fixed;
+    top: 2rem;
+    right: 4rem;
+  }
+
+  .list-item-active {
+    animation-name: fadeInDown;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+  }
+}
