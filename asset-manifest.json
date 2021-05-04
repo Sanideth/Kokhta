@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/kokhtad.ge/static/css/main.451ad593.chunk.css",
+    "main.js": "/kokhtad.ge/static/js/main.2f84745c.chunk.js",
+    "main.js.map": "/kokhtad.ge/static/js/main.2f84745c.chunk.js.map",
+    "runtime-main.js": "/kokhtad.ge/static/js/runtime-main.9bc2038c.js",
+    "runtime-main.js.map": "/kokhtad.ge/static/js/runtime-main.9bc2038c.js.map",
+    "static/js/2.4fa9f00f.chunk.js": "/kokhtad.ge/static/js/2.4fa9f00f.chunk.js",
+    "static/js/2.4fa9f00f.chunk.js.map": "/kokhtad.ge/static/js/2.4fa9f00f.chunk.js.map",
+    "static/js/3.ae2f057b.chunk.js": "/kokhtad.ge/static/js/3.ae2f057b.chunk.js",
+    "static/js/3.ae2f057b.chunk.js.map": "/kokhtad.ge/static/js/3.ae2f057b.chunk.js.map",
+    "index.html": "/kokhtad.ge/index.html",
+    "static/css/main.451ad593.chunk.css.map": "/kokhtad.ge/static/css/main.451ad593.chunk.css.map",
+    "static/js/2.4fa9f00f.chunk.js.LICENSE.txt": "/kokhtad.ge/static/js/2.4fa9f00f.chunk.js.LICENSE.txt",
+    "static/media/App.prefixed.css": "/kokhtad.ge/static/media/hero-1.2d0bb333.jpeg",
+    "static/media/abandoned-1.fc0be230.jpg": "/kokhtad.ge/static/media/abandoned-1.fc0be230.jpg",
+    "static/media/close.33b2689a.svg": "/kokhtad.ge/static/media/close.33b2689a.svg",
+    "static/media/cogs.06c1d65d.svg": "/kokhtad.ge/static/media/cogs.06c1d65d.svg",
+    "static/media/design-1.4bda04b1.jpg": "/kokhtad.ge/static/media/design-1.4bda04b1.jpg",
+    "static/media/envelope-o.dcbb9f1e.svg": "/kokhtad.ge/static/media/envelope-o.dcbb9f1e.svg",
+    "static/media/facebook2.7e12c433.svg": "/kokhtad.ge/static/media/facebook2.7e12c433.svg",
+    "static/media/fence-1.ca17207a.jpg": "/kokhtad.ge/static/media/fence-1.ca17207a.jpg",
+    "static/media/grave-1.ce311419.jpg": "/kokhtad.ge/static/media/grave-1.ce311419.jpg",
+    "static/media/home.05c65091.svg": "/kokhtad.ge/static/media/home.05c65091.svg",
+    "static/media/instagram.9bd6921d.svg": "/kokhtad.ge/static/media/instagram.9bd6921d.svg",
+    "static/media/irrigation-1.13ebddbf.jpg": "/kokhtad.ge/static/media/irrigation-1.13ebddbf.jpg",
+    "static/media/logo.e4a588f5.png": "/kokhtad.ge/static/media/logo.e4a588f5.png",
+    "static/media/phone.e643c7d5.svg": "/kokhtad.ge/static/media/phone.e643c7d5.svg",
+    "static/media/yard-1.a5096c00.jpg": "/kokhtad.ge/static/media/yard-1.a5096c00.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9bc2038c.js",
+    "static/js/2.4fa9f00f.chunk.js",
+    "static/css/main.451ad593.chunk.css",
+    "static/js/main.2f84745c.chunk.js"
+  ]
+}
