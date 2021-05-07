@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/kokhtad.ge/static/css/main.4fdda98f.chunk.css",
+    "main.css": "/kokhtad.ge/static/css/main.c7ab098a.chunk.css",
     "main.js": "/kokhtad.ge/static/js/main.ed2f1b23.chunk.js",
     "main.js.map": "/kokhtad.ge/static/js/main.ed2f1b23.chunk.js.map",
     "runtime-main.js": "/kokhtad.ge/static/js/runtime-main.6c422abe.js",
@@ -10,7 +10,7 @@
     "static/js/3.53128960.chunk.js": "/kokhtad.ge/static/js/3.53128960.chunk.js",
     "static/js/3.53128960.chunk.js.map": "/kokhtad.ge/static/js/3.53128960.chunk.js.map",
     "index.html": "/kokhtad.ge/index.html",
-    "static/css/main.4fdda98f.chunk.css.map": "/kokhtad.ge/static/css/main.4fdda98f.chunk.css.map",
+    "static/css/main.c7ab098a.chunk.css.map": "/kokhtad.ge/static/css/main.c7ab098a.chunk.css.map",
     "static/js/2.2871c2e1.chunk.js.LICENSE.txt": "/kokhtad.ge/static/js/2.2871c2e1.chunk.js.LICENSE.txt",
     "static/media/App.css": "/kokhtad.ge/static/media/hero-1.2d0bb333.jpeg",
     "static/media/abandoned-1-scaled.bc639687.jpg": "/kokhtad.ge/static/media/abandoned-1-scaled.bc639687.jpg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.6c422abe.js",
     "static/js/2.2871c2e1.chunk.js",
-    "static/css/main.4fdda98f.chunk.css",
+    "static/css/main.c7ab098a.chunk.css",
     "static/js/main.ed2f1b23.chunk.js"
   ]
 }
