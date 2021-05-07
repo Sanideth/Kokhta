@@ -14,7 +14,7 @@ const navArr = [
 
 const Header = () => {
   const [navActive, setNavActive] = useState(false);
-  console.log(navActive);
+
   const handleOnClick = () => {
     setNavActive(!navActive);
   };
