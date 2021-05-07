@@ -182,17 +182,6 @@
     text-align: center;
     transition: all 0.2s;
 
-    &:hover img {
-      filter: brightness(100%);
-      transform: scale(1.05);
-    }
-    &:hover figcaption {
-      background-color: rgba(0, 0, 0, 0.5);
-    }
-    &:hover .btn-secondary {
-      opacity: 1;
-      visibility: visible;
-    }
     @media only screen and (max-width: $bp-medium) {
       flex-basis: 40%;
     }
@@ -202,11 +191,27 @@
     @media only screen and (max-width: $bp-tiny) {
       flex-basis: 100%;
     }
+    @media only screen and (min-width: $bp-small) {
+      &:hover img {
+        filter: brightness(100%);
+        transform: scale(1.05);
+      }
+      &:hover figcaption {
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      &:hover .btn-secondary {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
   }
   &__service-img {
     filter: brightness(50%);
     backface-visibility: hidden;
     transition: all 0.2s;
+    @media only screen and (max-width: $bp-medium) {
+      filter: brightness(100%);
+    }
   }
 
   &__figcaption {
@@ -218,6 +223,9 @@
     font-weight: 600;
     padding: 0.5rem;
     width: 85%;
+    @media only screen and (max-width: $bp-medium) {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
     @media only screen and (max-width: $bp-tiny) {
       transform: translate(-50%, -70%);
     }

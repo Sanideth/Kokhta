@@ -67,6 +67,10 @@
   &:hover {
     background-color: rgba(#fff, 1);
   }
+  @media only screen and (max-width: $bp-medium) {
+    visibility: visible;
+    opacity: 1;
+  }
   @media only screen and (max-width: $bp-tiny) {
     margin-top: 1rem;
   }

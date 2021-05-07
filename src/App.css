@@ -101,6 +101,10 @@ a {
   transition: all 0.2s; }
   .btn-secondary:hover {
     background-color: white; }
+  @media only screen and (max-width: 75em) {
+    .btn-secondary {
+      visibility: visible;
+      opacity: 1; } }
   @media only screen and (max-width: 37.5em) {
     .btn-secondary {
       margin-top: 1rem; } }
@@ -304,14 +308,6 @@ a {
     overflow: hidden;
     text-align: center;
     transition: all 0.2s; }
-    .section-services__service:hover img {
-      filter: brightness(100%);
-      transform: scale(1.05); }
-    .section-services__service:hover figcaption {
-      background-color: rgba(0, 0, 0, 0.5); }
-    .section-services__service:hover .btn-secondary {
-      opacity: 1;
-      visibility: visible; }
     @media only screen and (max-width: 75em) {
       .section-services__service {
         flex-basis: 40%; } }
@@ -321,10 +317,22 @@ a {
     @media only screen and (max-width: 37.5em) {
       .section-services__service {
         flex-basis: 100%; } }
+    @media only screen and (min-width: 50em) {
+      .section-services__service:hover img {
+        filter: brightness(100%);
+        transform: scale(1.05); }
+      .section-services__service:hover figcaption {
+        background-color: rgba(0, 0, 0, 0.5); }
+      .section-services__service:hover .btn-secondary {
+        opacity: 1;
+        visibility: visible; } }
   .section-services__service-img {
     filter: brightness(50%);
     backface-visibility: hidden;
     transition: all 0.2s; }
+    @media only screen and (max-width: 75em) {
+      .section-services__service-img {
+        filter: brightness(100%); } }
   .section-services__figcaption {
     position: absolute;
     top: 50%;
@@ -334,6 +342,9 @@ a {
     font-weight: 600;
     padding: 0.5rem;
     width: 85%; }
+    @media only screen and (max-width: 75em) {
+      .section-services__figcaption {
+        background-color: rgba(0, 0, 0, 0.5); } }
     @media only screen and (max-width: 37.5em) {
       .section-services__figcaption {
         transform: translate(-50%, -70%); } }
