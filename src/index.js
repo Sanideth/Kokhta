@@ -8,7 +8,7 @@ import reportWebVitals from "./reportWebVitals";
 ReactDOM.render(
   <React.StrictMode>
     <App />
-    <Ripple color="#449440" />
+    <Ripple color="#fff" background="#449440" />
   </React.StrictMode>,
   document.getElementById("root")
 );
