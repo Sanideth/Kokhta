@@ -132,12 +132,12 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
     transition: all 0.2s 0.3s;
-    overflow: scroll;
 
     @media (max-width: $bp-tiny) {
       padding: 2rem;
       width: 90%;
       font-size: 1.4rem;
+      overflow: scroll;
     }
   }
   &__button-container {
