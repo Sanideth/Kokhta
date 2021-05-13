@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/kokhtad.ge/static/css/main.c7ab098a.chunk.css",
-    "main.js": "/kokhtad.ge/static/js/main.6a5b6ecb.chunk.js",
-    "main.js.map": "/kokhtad.ge/static/js/main.6a5b6ecb.chunk.js.map",
+    "main.css": "/kokhtad.ge/static/css/main.9aac985a.chunk.css",
+    "main.js": "/kokhtad.ge/static/js/main.7e09157f.chunk.js",
+    "main.js.map": "/kokhtad.ge/static/js/main.7e09157f.chunk.js.map",
     "runtime-main.js": "/kokhtad.ge/static/js/runtime-main.6c422abe.js",
     "runtime-main.js.map": "/kokhtad.ge/static/js/runtime-main.6c422abe.js.map",
     "static/js/2.2871c2e1.chunk.js": "/kokhtad.ge/static/js/2.2871c2e1.chunk.js",
@@ -10,9 +10,9 @@
     "static/js/3.53128960.chunk.js": "/kokhtad.ge/static/js/3.53128960.chunk.js",
     "static/js/3.53128960.chunk.js.map": "/kokhtad.ge/static/js/3.53128960.chunk.js.map",
     "index.html": "/kokhtad.ge/index.html",
-    "static/css/main.c7ab098a.chunk.css.map": "/kokhtad.ge/static/css/main.c7ab098a.chunk.css.map",
+    "static/css/main.9aac985a.chunk.css.map": "/kokhtad.ge/static/css/main.9aac985a.chunk.css.map",
     "static/js/2.2871c2e1.chunk.js.LICENSE.txt": "/kokhtad.ge/static/js/2.2871c2e1.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/kokhtad.ge/static/media/hero-1.2d0bb333.jpeg",
+    "static/media/App.prefixed.css": "/kokhtad.ge/static/media/hero-1.2d0bb333.jpeg",
     "static/media/abandoned-1-scaled.bc639687.jpg": "/kokhtad.ge/static/media/abandoned-1-scaled.bc639687.jpg",
     "static/media/close.33b2689a.svg": "/kokhtad.ge/static/media/close.33b2689a.svg",
     "static/media/cogs.06c1d65d.svg": "/kokhtad.ge/static/media/cogs.06c1d65d.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.6c422abe.js",
     "static/js/2.2871c2e1.chunk.js",
-    "static/css/main.c7ab098a.chunk.css",
-    "static/js/main.6a5b6ecb.chunk.js"
+    "static/css/main.9aac985a.chunk.css",
+    "static/js/main.7e09157f.chunk.js"
   ]
 }
