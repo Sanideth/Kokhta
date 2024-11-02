@@ -20,7 +20,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer__top">
           <div className="footer__logo-container">
-            <a href="https://www.kokhtad.ge" className="footer__logo-link">
+            <a href="https://www.ezograph.ge" className="footer__logo-link">
               <Image src={logoSrc} alt="Logo" className="footer__logo" />
             </a>
           </div>
