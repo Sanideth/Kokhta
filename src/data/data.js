@@ -1,10 +1,10 @@
 import yardImgSrc from '../img/yard-1-scaled.jpg';
-import designImgSrc from '../img/design-1.jpg';
+import designImgSrc from '../img/design-1-scaled.jpg';
 import irrigationImgSrc from '../img/irrigation-1-scaled.jpg';
 import abandonedImgSrc from '../img/abandoned-1-scaled.jpg';
-import fenceImgSrc from '../img/fence-1.jpg';
-import gardeningImgSrc from '../img/gardening.jpg';
-import lightsImgSrc from '../img/lights.jpg';
+import fenceImgSrc from '../img/fence-1-scaled.jpg';
+import gardeningImgSrc from '../img/gardening-scaled.jpg';
+import lightsImgSrc from '../img/lights-scaled.jpg';
 import grassLawnImgSrc from '../img/grass-lawn.jpg';
 
 export const data = [
