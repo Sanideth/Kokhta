@@ -18,6 +18,7 @@ const Service = (props) => {
             popupText={props.popupText}
             popupHeading={props.text}
             clickable={true}
+            isNonAnchor={props.isNonAnchor}
           />
         </div>
       </figcaption>

@@ -48,6 +48,7 @@ const SectionServices = () => {
               clickOpen={handleOnClick}
               clickText={handlePopupTextClick}
               popupText={item.popupText}
+              isNonAnchor={true}
             />
           ))}
           {/* <Service
