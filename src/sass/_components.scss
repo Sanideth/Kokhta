@@ -1,0 +1,154 @@
+@use 'variables' as *;
+// Container class
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+// Headings
+.heading-primary {
+  color: #fff;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  position: relative;
+  vertical-align: middle;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 15%;
+    height: 1px;
+    background-color: $color-green;
+    transform: translateX(-50%);
+  }
+
+  &::after {
+    bottom: -30px;
+  }
+}
+
+.heading-tertiary {
+  color: $color-green;
+}
+
+// Buttons
+
+.btn-primary {
+  padding: 1rem 3rem;
+  border-radius: 0.2rem;
+  background-color: $color-green;
+  color: #fff;
+  opacity: 0.7;
+  transition: all 0.2s;
+  font-weight: 600;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.btn-secondary {
+  padding: 1rem 3rem;
+  border-radius: 0.2rem;
+  background-color: rgba(#fff, 0.85);
+  position: absolute;
+  color: #000;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 600;
+  font-size: 1.4rem;
+  width: 15rem;
+  margin-top: 2rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s;
+  &:hover {
+    background-color: rgba(#fff, 1);
+  }
+  @media only screen and (max-width: $bp-medium) {
+    visibility: visible;
+    opacity: 1;
+  }
+  @media only screen and (max-width: $bp-tiny) {
+    margin-top: 1rem;
+  }
+}
+
+.btn-tertiary {
+  background-color: transparent;
+  & svg {
+    transition: all 0.2s;
+  }
+  &:hover svg {
+    fill: $color-green;
+  }
+}
+.btn-navigation {
+  padding: 0.6rem 0.3rem;
+  background-color: transparent;
+
+  z-index: 1100;
+  & > *:not(:last-child) {
+    margin-bottom: 0.3rem;
+  }
+}
+.btn-span {
+  width: 2rem;
+  background-color: #fff;
+  height: 2px;
+  display: block;
+  transition: all 0.2s;
+}
+
+//Popup class
+.popup {
+  visibility: hidden;
+  opacity: 0;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #000;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s;
+  z-index: 9999;
+
+  &__content {
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 50rem;
+    background-color: #fff;
+    padding: 4rem;
+    text-align: center;
+    box-shadow: 0 2rem 4rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+    transition: all 0.2s 0.3s;
+
+    @media (max-width: $bp-tiny) {
+      padding: 2rem;
+      width: 90%;
+      font-size: 1.4rem;
+      overflow: scroll;
+    }
+  }
+  &__button-container {
+    align-self: flex-end;
+  }
+  &__text-container {
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  &__heading-container {
+    margin-bottom: 4rem;
+  }
+}
