@@ -3,6 +3,10 @@ import Paragraph from '../components/Paragraph';
 import Icon from '../components/Icon';
 import CogIcon from '../img/cogs.svg?react';
 import HomeIcon from '../img/home.svg?react';
+import TreeIcon from '../img/tree.svg?react';
+import DollarIcon from '../img/dollar.svg?react';
+import BriefcaseIcon from '../img/briefcase.svg?react'
+import CityIcon from '../img/city.svg?react'
 
 const SectionAbout = () => {
   return (
@@ -16,24 +20,65 @@ const SectionAbout = () => {
           />
         </div>
         <div className="section-about__info">
-          {/* <div className="section-about__info-box">
-            <div className="section-about__icon-container">
-              <Icon icon={<CogIcon />} />
-            </div>
-            <Paragraph
-              className="paragraph-primary"
-              text="ეზოგრაფი არის ეზოს/ბაღის მოვლა მოწყობასთან დაკავშირებული სერვისების ერთობლიობა. ჩვენ ერთი ფანჯრის პრინციპით ვაგვარებთ თქვენს ეზოსთან დაკავშირებულ პრობლემებს და საჭიროებებს."
-            />
-          </div> */}
           <div className="section-about__info-box">
             <div className="section-about__icon-container">
               <Icon icon={<HomeIcon />} />
             </div>
-            <Paragraph
+            <p
               className="paragraph-primary"
-              text="კერძო სახლის მფლობელებისთვის – ვისაც სურს ახალი ბაღის მოწყობა თავიანთ ეზოში, რათა შექმნან მშვენიერი და მშვიდი გარემო. მომხმარებლებისთვის, ვისაც უკვე აქვთ ბაღი – ვინც საჭიროებს რეგულარულ მებაღეობის სერვისს, რათა მათი ბაღი ყოველთვის მოვლილი და ლამაზი იყოს. სახლების მყიდველებისთვის – ვინც ახალ სახლში გადადის და სურს, რომ მის ეზომ უნიკალური ხიბლი შეიძინოს. ბიზნესებისთვის – როგორც კომერციული, ისე სამრეწველო ობიექტებისთვის, რომლებსაც სჭირდებათ პეიზაჟური სერვისები და გარემოს beautification. ადგილობრივი ხელისუფლებისა და არასამთავრობო ორგანიზაციებისთვის- რომლებიც ეძებენ პროფესიონალურ დახმარებას საჯარო პარკებისა და რეკრეაციული სივრცეების გამწვანებაში. ჩვენი სერვისები ერგება ყველას, ვისაც სურს განახლებულ და სასიამოვნო გარემოში ცხოვრება."
-            />
+              
+            ><strong className='section-about__info-strong'>კერძო სახლის მფლობელებისთვის</strong>  ვისაც სურს ახალი ბაღის მოწყობა თავიანთ ეზოში, რათა შექმნან მშვენიერი და მშვიდი გარემო.</p>
           </div>
+          <div className="section-about__info-box">
+            <div className="section-about__icon-container">
+              <Icon icon={<TreeIcon />} />
+            </div>
+            <p
+              className="paragraph-primary"
+              
+            ><strong className='section-about__info-strong'>მომხმარებლებისთვის, ვისაც უკვე აქვთ ბაღი</strong>  ვინც საჭიროებს რეგულარულ მებაღეობის სერვისს, რათა მათი ბაღი ყოველთვის მოვლილი და ლამაზი იყოს.</p>
+          </div>
+          <div className="section-about__info-box">
+            <div className="section-about__icon-container">
+              <Icon icon={<DollarIcon />} />
+            </div>
+            <p
+              className="paragraph-primary"
+              
+            ><strong className='section-about__info-strong'>სახლების მყიდველებისთვის</strong>  ვინც ახალ სახლში გადადის და სურს, რომ მის ეზომ უნიკალური ხიბლი შეიძინოს.</p>
+          </div>
+          <div className="section-about__info-box">
+            <div className="section-about__icon-container">
+              <Icon icon={<BriefcaseIcon />} />
+            </div>
+            <p
+              className="paragraph-primary"
+              
+            ><strong className='section-about__info-strong'>ბიზნესებისთვის</strong>  როგორც კომერციული, ისე სამრეწველო ობიექტებისთვის, რომლებსაც სჭირდებათ პეიზაჟური სერვისები და გარემოს beautification.</p>
+          </div>
+          <div className="section-about__info-box">
+            <div className="section-about__icon-container">
+              <Icon icon={<CityIcon />} />
+            </div>
+            <p
+              className="paragraph-primary"
+              
+            ><strong className='section-about__info-strong'>ადგილობრივი ხელისუფლებისა და არასამთავრობო ორგანიზაციებისთვის</strong>  რომლებიც ეძებენ პროფესიონალურ დახმარებას საჯარო პარკებისა და რეკრეაციული სივრცეების გამწვანებაში.</p>
+          </div>
+          {/* <div className="section-about__info-box">
+            <div className="section-about__icon-container">
+              <Icon icon={<HomeIcon />} />
+            </div>
+          <ul className='section-about__info-list'>
+            <li>- <strong>კერძო სახლის მფლობელებისთვის</strong> – ვისაც სურს ახალი ბაღის მოწყობა თავიანთ ეზოში, რათა შექმნან მშვენიერი და მშვიდი გარემო.</li>
+            <li>- <strong>მომხმარებლებისთვის, ვისაც უკვე აქვთ ბაღი</strong> – ვინც საჭიროებს რეგულარულ მებაღეობის სერვისს, რათა მათი ბაღი ყოველთვის მოვლილი და ლამაზი იყოს.</li>
+            <li>- <strong>სახლების მყიდველებისთვის</strong> – ვინც ახალ სახლში გადადის და სურს, რომ მის ეზომ უნიკალური ხიბლი შეიძინოს.</li>
+            <li>- <strong>ბიზნესებისთვის</strong> – როგორც კომერციული, ისე სამრეწველო ობიექტებისთვის, რომლებსაც სჭირდებათ პეიზაჟური სერვისები და გარემოს beautification.</li>
+            <li>- <strong>ადგილობრივი ხელისუფლებისა და არასამთავრობო ორგანიზაციებისთვის</strong> - რომლებიც ეძებენ პროფესიონალურ დახმარებას საჯარო პარკებისა და რეკრეაციული სივრცეების გამწვანებაში.</li>
+          </ul>
+          <p className='paragrah-primary'>ჩვენი სერვისები ერგება ყველას, ვისაც სურს განახლებულ და სასიამოვნო გარემოში ცხოვრება.</p>
+
+          </div> */}
         </div>
       </div>
     </section>

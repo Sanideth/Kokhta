@@ -125,6 +125,8 @@
     justify-content: space-between;
     @media only screen and (max-width: $bp-medium) {
       justify-content: space-evenly;
+      flex-wrap: wrap;
+      gap: 2rem;
     }
     @media only screen and (max-width: $bp-small) {
       flex-direction: column;
@@ -134,18 +136,34 @@
     }
   }
   &__info-box {
-    // flex-basis: 43%;
+    flex-basis: 20%;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 0.2rem;
-    padding: 3rem;
-    text-align: center;
+    padding: 2rem;
+    @media only screen and (max-width: $bp-small) {
+      text-align: center;
+    }
+    & p {
+      text-align: center;
+    }
+  }
+  &__info-list {
+    margin-bottom: 4rem;
   }
   &__icon-container {
+    display: flex;
+    justify-content: center;
     margin-bottom: 1.5rem;
     & svg {
       fill: $color-green;
     }
   }
+
+  &__info-strong {
+    display: block;
+    margin-bottom: 2rem;
+  }
+ 
 }
 
 .section-services {
