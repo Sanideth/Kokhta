@@ -69,7 +69,7 @@ const Header = () => {
             <Heading
               element="h1"
               className="heading-primary"
-              text="ეზოგრაფი - ვქმნით მწვანე სამოთხეს თქვენთვის"
+              text="ეზოგრაფი - გამწვანება და მეტი..."
             />
           </div>
           <div className="header__button-container">
