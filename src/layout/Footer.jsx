@@ -30,6 +30,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/profile.php?id=100084029234488&mibextid=ZbWKwL"
                 className="footer__social-link"
+                aria-label='Ezography Facebook page'
               >
                 <Icon icon={<FacebookIcon />} />
               </a>
@@ -38,6 +39,7 @@ const Footer = () => {
               <a
                 href="https://www.instagram.com/ezography_giorgi?igsh=MTM5enhseDU5cXYxOQ=="
                 className="footer__social-link"
+                aria-label='Ezography Instagram page'
               >
                 <Icon icon={<InstagramIcon />} />
               </a>
@@ -46,6 +48,7 @@ const Footer = () => {
               <a
                 href="https://www.tiktok.com/@ezography?_t=8q4rGRyn8Iy&_r=1"
                 className="footer__social-link"
+                aria-label='Ezography Tiktok page'
               >
                 <Icon icon={<TiktokIcon />} />
               </a>

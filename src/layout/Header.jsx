@@ -39,6 +39,7 @@ const Header = () => {
                 navActive ? 'btn-navigation-active' : ''
               }`}
               onClick={handleOnClick}
+              name='navigation'
             >
               <span
                 className={`btn-span btn-span--1 ${
