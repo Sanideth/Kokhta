@@ -45,7 +45,7 @@ const SectionAbout = () => {
             <p
               className="paragraph-primary"
               
-            ><strong className='section-about__info-strong'>სახლების მყიდველებისთვის</strong>  ვინც ახალ სახლში გადადის და სურს, რომ მის ეზომ უნიკალური ხიბლი შეიძინოს.</p>
+            ><strong className='section-about__info-strong'>სახლების მყიდველებისთვის</strong>  ვინც ახალ სახლში გადადის და სურს, რომ მისმა ეზომ უნიკალური ხიბლი შეიძინოს.</p>
           </div>
           <div className="section-about__info-box">
             <div className="section-about__icon-container">
@@ -54,7 +54,7 @@ const SectionAbout = () => {
             <p
               className="paragraph-primary"
               
-            ><strong className='section-about__info-strong'>ბიზნესებისთვის</strong>  როგორც კომერციული, ისე სამრეწველო ობიექტებისთვის, რომლებსაც სჭირდებათ პეიზაჟური სერვისები და გარემოს beautification.</p>
+            ><strong className='section-about__info-strong'>ბიზნესებისთვის</strong>  როგორც კომერციული, ისე სამრეწველო ობიექტებისთვის, რომლებსაც სჭირდებათ პეიზაჟური სერვისები და გარემოს გალამაზება.</p>
           </div>
           <div className="section-about__info-box">
             <div className="section-about__icon-container">

@@ -322,21 +322,38 @@
       fill: $color-green;
     }
   }
-  &__icon-container:first-child:hover {
+
+  &__social-link {
+    & svg {
+      width: 100%;
+      height: 100%;
+      transition: all 0.4s;
+      fill: $color-green;
+    }
+  }
+
+  
+  &__social-link--facebook:hover {
     & svg {
       fill: #1877f2;
     }
   }
-  &__icon-container:nth-child(2):hover {
+  &__social-link--instagram:hover {
     & svg {
       fill: #e1306c;
     }
   }
-  &__icon-container:last-child:hover {
+  &__social-link--tiktok:hover {
     & svg {
       fill: #00f2ea;
     }
   }
+  &__social-link--youtube:hover {
+    & svg {
+      fill: #FF0000
+    }
+  }
+
 
   &__contact {
     display: flex;

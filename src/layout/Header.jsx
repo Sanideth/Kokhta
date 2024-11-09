@@ -67,11 +67,15 @@ const Header = () => {
         </div>
         <div className="header__bottom">
           <div className="header__heading-container">
-            <Heading
+            {/* <Heading
               element="h1"
               className="heading-primary"
               text="ეზოგრაფი - ვქმნით სიყვარულით"
-            />
+            /> */}
+            <h1 class="heading-primary">
+                <span class="heading-primary-main">ეზოგრაფი</span>
+                <span class="heading-primary-sub">ვქმნით სიყვარულით</span>
+            </h1>
           </div>
           <div className="header__button-container">
             <Button
