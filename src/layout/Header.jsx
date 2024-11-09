@@ -39,7 +39,7 @@ const Header = () => {
                 navActive ? 'btn-navigation-active' : ''
               }`}
               onClick={handleOnClick}
-              name='navigation'
+              aria-label='navigation'
             >
               <span
                 className={`btn-span btn-span--1 ${
