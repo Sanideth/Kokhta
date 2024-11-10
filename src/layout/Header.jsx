@@ -23,7 +23,7 @@ const Header = () => {
       <div className="container u-fl">
         <div className="header__top">
           <div className="header__logo-container">
-            <a href="https://www.ezograph.ge" className="header__logo-link">
+            <a href="https://www.ezography.ge" className="header__logo-link" aria-label='ეზოგრაფის ოფიციალური საიტი'>
               <Image src={srcLogo} alt="Logo" className="header__logo" />
             </a>
           </div>

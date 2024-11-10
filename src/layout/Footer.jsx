@@ -21,7 +21,7 @@ const Footer = () => {
       <div className="container">
         <div className="footer__top">
           <div className="footer__logo-container">
-            <a href="https://www.ezograph.ge" className="footer__logo-link">
+            <a href="https://www.ezography.ge" className="footer__logo-link" aria-label='ეზოგრაფის ოფიციალური საიტი'>
               <Image src={logoSrc} alt="Logo" className="footer__logo" />
             </a>
           </div>
@@ -71,7 +71,7 @@ const Footer = () => {
               <Icon icon={<PhoneIcon />} />
             </div>
             <div className="footer__contact-text-container">
-              <a href="tel:+995 598 18 00 91" className="footer__contact-link">
+              <a href="tel:+995 598 18 00 91" className="footer__contact-link" aria-label='ეზოგრაფის მობილურის ნომერი'>
                 +995 598 18 00 91
               </a>
             </div>
@@ -84,6 +84,7 @@ const Footer = () => {
               <a
                 href="mailto: g.zurabiani@hotmail.com"
                 className="footer__contact-link"
+                aria-label='ეზოგრაფის ელ-ფოსტა'
               >
                 g.zurabiani@hotmail.com
               </a>
